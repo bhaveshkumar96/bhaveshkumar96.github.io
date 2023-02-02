@@ -46,7 +46,9 @@ export const Navbar = () => {
               smooth={true}
               offeset={0}
             >
-              <img src={logo1} alt="" />
+            <i>
+            <h1>Bhavesh Kumar</h1>
+              </i>  
             </Link>
           </NavbarLi>
         </NavbarDiv>
@@ -83,7 +85,7 @@ export const Navbar = () => {
               activeClassName="nav-link-active"
               to="main_projects_link"
               duration={1500}
-              delay={100}
+              delay={10}
               smooth={true}
               offeset={0}
             >

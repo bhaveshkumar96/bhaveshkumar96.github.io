@@ -5,7 +5,6 @@ import { FiMail, FiSmartphone } from "react-icons/fi";
 import { TiLocation } from "react-icons/ti";
 import { IoIosArrowDropupCircle } from "react-icons/io";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Round from "../Images/Round.svg";
 
 export const Footer = () => {
   function scrollTo() {
@@ -13,7 +12,7 @@ export const Footer = () => {
   }
 
   return (
-    <div name="main_footer_link" className={styles.footer_mainDiv}>
+    <div name="main_footer_link" className={styles.footer_mainDiv} style={{backgroundImage:"url('https://im3.ezgif.com/tmp/ezgif-3-c2225c5350.jpg')"}}>
       <div className={styles.footer_scrollup}>
         <IoIosArrowDropupCircle onClick={scrollTo} />
         {/* <img src={ Round} alt="" /> */}

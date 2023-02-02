@@ -1,8 +1,9 @@
 .footer_mainDiv {
     text-align: center;
-    background-color: #464646;
+    background-color: wheat;
     height: 15em;
     width: 100%;
+    border: 1px solid gray;
 }
 
 .footer_scrollup {
@@ -15,13 +16,13 @@
 }
 .footer_scrollup *:hover {
     font-size: 4.5em;
-    color: #00a8e1;
+    color: rgb(168, 71, 71);
 }
 
 .footer_outerDiv_icons {
     display: flex;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
     font-size: 2em;
     margin: 1em;
     margin-top: 1.7em;
@@ -36,7 +37,7 @@
 .footer_address_numberDiv {
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
 }
 .footer_address_numberDiv div {
     display: flex;

@@ -12,7 +12,10 @@ export const Stats = () => {
         paddingTop: "25px",
         backgroundColor: "rgba(245, 218, 178, 0.158)",
         transition: " all 0.3s ease",
+        backgroundImage: 
+        "url('https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80')"
       }}
+     
     >
       <h1 style={{ textAlign: "center", marginBottom: "10px" }}>
         My Statistics

@@ -107,7 +107,7 @@ export const HamburgerMenuFun = () => {
                                     onClick={handleClick}
                                     className="nav-not-active-link"
                                     target="_blank"
-                                    href="https://drive.google.com/file/d/1LHqVM01wZ7gXaPsG0kV5aXDCj7x2AL3Y/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1qtwMLZiIyi5jg9m4jee5n-_5HCxdjJyX/view"
                                 >
                                     Resume
                                 </a>

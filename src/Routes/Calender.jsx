@@ -11,10 +11,12 @@ export const Calender = () => {
         paddingTop: "25px",
         backgroundColor: "rgba(245, 218, 178, 0.158)",
         transition: " all 0.3s ease",
+        backgroundImage: 
+        "url('https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
       }}
     >
       <div>
-        <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
+        <h1 style={{ textAlign: "center", marginBottom: "20px",color:"white" }}>
           My Github Calender
         </h1>
       </div>
@@ -27,7 +29,7 @@ export const Calender = () => {
       >
         <img
           src="https://ghchart.rshah.org/bhaveshkumar96"
-          alt="jay prakash lohar"
+          alt="Bhavesh kumar"
         />
       </div>
       <div

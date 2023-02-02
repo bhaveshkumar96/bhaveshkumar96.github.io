@@ -4,7 +4,6 @@ import styles1 from "../Module_css/About.module.css";
 import purplle from "../Images/shephora-home-navigation-slider.PNG";
 import PrimeVideo from "../Images/DNA-home-page.PNG";
 import hashnode from "../Images/shoppers-home-page-slider.PNG";
-import bestBuy from "../Images/bestbuy3.png";
 import {
   Icon_small,
   StyledIcon_react,
@@ -14,7 +13,7 @@ import { EveryHeading } from "../Styled/NavbarDiv";
 
 export const Projects = () => {
   return (
-    <div name="main_projects_link" className={styles.mainProjects}>
+    <div name="main_projects_link" className={styles.mainProjects} style={{backgroundImage:"url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}>
       <EveryHeading>PROJECTS</EveryHeading>
       <div className={styles.mainProjects_mainDiv}>
         <div className={styles.mainProjects_mainDiv_project1}>

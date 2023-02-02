@@ -8,7 +8,8 @@ import { TiLocation } from "react-icons/ti";
 export const About = () => {
   return (
     <>
-      <div id="main_about_link" className={styles.mainAboutDiv}>
+      <div id="main_about_link" className={styles.mainAboutDiv} style={{backgroundImage: 
+ "url('https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80')"}}>
         <div className={styles.about_outerDivImg}>
           <div className={styles.about_InnerDivImg}>
             <img src={Bhanu} alt="" />
@@ -29,14 +30,17 @@ export const About = () => {
           </h1>
         </div>
         <div className={styles.about_devH3Div}>
-          <h3>Full Stack Developer</h3>
+          <h3> <i>Full Stack Web Developer</i> </h3>
         </div>
         <div className={styles.about_descPDiv}>
           <p>
-          Enthusiastic Full Stack Web Developer specialized in MERN stack. Keen
+            <i>
+              Enthusiastic Full Stack Web Developer specialized in MERN stack. Keen
 interest in learning new things and working with dynamic teams. Practiced
 400 hours of coding. Looking forward to an exciting opportunity and
 Development experience in a product-based company.
+            </i>
+          
           </p>
         </div>
         <div className={styles.about_outerDiv_icons}>

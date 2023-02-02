@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+//navbar background color aecfed
 const NavbarMainDiv = styled.div`
     position: fixed;
     top: 0;
@@ -11,8 +11,10 @@ const NavbarMainDiv = styled.div`
     height: 5em;
     text-decoration: none;
     color: white;
-    background-color: black;
+    background-color: #2e2c38;
+  
     z-index: 2;
+
 
     @media (max-width: 760px) {
         & {
@@ -53,11 +55,12 @@ const NavbarHam = styled.div`
         }
     }
 `;
-
+//navbar background color
 const NavbarLi = styled.li`
     list-style: none;
-    color: white;
-    background-color: black;
+    color: #935af0;
+
+    background-color: #2e2c38;
     text-decoration: none !important;
 `;
 

@@ -1,14 +1,16 @@
 .skill_MainOuterDiv {
     margin: auto;
     text-align: center;
+    color: aliceblue;
 }
 
 .skill_gridMain {
+    
     width: 80% !important;
     margin: 1em auto;
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    border: 1px solid #f0f0f0;
+    border: 1px solid yellow;
     padding-top: 2em;
     padding-bottom: 1em;
     transition: all 0.3s ease;

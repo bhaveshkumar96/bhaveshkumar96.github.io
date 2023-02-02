@@ -1,6 +1,6 @@
 .mainAboutDiv {
   text-align: center;
-  background-color: #464646;
+  /* background-color: #cbcdd4 ; */
   margin-top: 5em;
   overflow-y: hidden;
   padding-bottom: 3em;
@@ -15,23 +15,27 @@
 .about_InnerDivImg img:hover {
   opacity: 0.9;
   padding: 0.2em;
+  cursor: pointer;
 }
 .about_nameH1Div {
   color: white;
   margin: 1.5em;
 }
 .about_nameH1Div span {
-  color: #00a8e1;
+  color:wheat;
 }
 .about_devH3Div {
-  color: white;
+  color: rgb(207, 207, 207);
   margin: 1em;
   margin-bottom: 1.2em !important;
+  letter-spacing: 1px;
 }
 .about_descPDiv {
-  color: white;
+  color: whitesmoke;
   max-width: 56em;
   margin: 1em auto;
+  letter-spacing: 1px;
+  font-family: 'Times New Roman';
 }
 .about_outerDiv_icons {
   display: flex;
@@ -67,7 +71,7 @@
 .about_resume_button {
   width: 7.5em;
   height: 2.5em;
-  background: #77d1ff;
+  
   border-radius: 0.25em;
   margin-bottom: 1.25em;
   margin-top: 1.7em;
@@ -83,7 +87,8 @@
 } */
 
 .about_resume_button :hover {
-  background: #00a8e1;
+  background: white;
+  color: black;
 }
 
 /* ----------------- */
@@ -96,9 +101,9 @@ button {
   height: 2.5em;
   width: 9em;
   /* background: rgb(0, 89, 255); */
-  color: #00bfff;
+  color:white;
   font-size: 1.2em;
-  border: 1px solid #00bfff;
+  border: 1px solid black;
   border-radius: 5px;
   transition: all 0.3s ease-out;
 }
@@ -132,7 +137,11 @@ button {
   z-index: -1;
   transition: all 0.3s ease-out;
 }
-
+.resumeButton :hover{
+  background-color: white;
+  color: black;
+  /* border: black 1px solid; */
+}
 .resumeButton::after {
   content: " ";
   position: absolute;
@@ -166,6 +175,7 @@ button {
   transition: all 0.3s ease-out;
   color: white;
   margin: 0.9em;
+  
 }
 .viewDemoButton:hover {
   color: black;
@@ -270,6 +280,7 @@ button {
   }
   #hiIam {
     display: none;
+    
   }
   .about_emoji {
     display: none;

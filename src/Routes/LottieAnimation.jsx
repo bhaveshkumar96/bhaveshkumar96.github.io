@@ -17,9 +17,11 @@ export const LottieAnimation = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  width:"100%"
               }}
           >
-              <Lottie options={defaultOptions} height={400} width={400} />
+            <img width={"100%"} src='https://mir-s3-cdn-cf.behance.net/project_modules/hd/b6e0b072897469.5bf6e79950d23.gif'/>
+              
           </div>
       );
 }

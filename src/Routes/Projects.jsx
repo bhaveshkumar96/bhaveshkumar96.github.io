@@ -4,6 +4,7 @@ import styles1 from "../Module_css/About.module.css";
 import purplle from "../Images/shephora-home-navigation-slider.PNG";
 import PrimeVideo from "../Images/DNA-home-page.PNG";
 import hashnode from "../Images/shoppers-home-page-slider.PNG";
+import baby from '../Images/navbar-sastadeal.png'
 import {
   Icon_small,
   StyledIcon_react,
@@ -14,7 +15,7 @@ import { EveryHeading } from "../Styled/NavbarDiv";
 export const Projects = () => {
   return (
     <div name="main_projects_link" className={styles.mainProjects} style={{backgroundImage:"url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}>
-      <EveryHeading>PROJECTS</EveryHeading>
+      <EveryHeading style={{color:"whitesmoke",marginTop:"20px",marginBottom:"0px" }}>PROJECTS</EveryHeading>
       <div className={styles.mainProjects_mainDiv}>
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
@@ -150,9 +151,52 @@ export const Projects = () => {
                 
               </div>
             </div>
+            
           </div>
         </div>
-        
+        <div className={styles.mainProjects_mainDiv_project1}>
+          <div className={styles.mainProjects_mainDiv_project1_img}>
+            <img src={baby} alt="shop.com" />
+          </div>
+          <div className={styles.mainProjects_mainDiv_project1_summary}>
+            <div>
+              {" "}
+              <h2>Snapdeal.com</h2>
+              <p>
+              Snapdeal is an Indian e-commerce website Snapdeal was one of the largest online marketplaces in India. Snapdeal targets the value e-commerce segment.It was a Collaborative Project built in 5 days, App was built using React-redux ,HTML,CSS,JavaScript,and Chakra-ui.
+              </p>
+            </div>
+            <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
+              <div>
+                <a target="_blank" href="https://snapdeal-project.vercel.app/">
+                  <button className={styles1.viewDemoButton}>Live</button>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://github.com/bhaveshkumar96/brash-profit-9147"
+                >
+                  <button className={styles1.viewDemoButton}>
+                    View Source
+                  </button>
+                </a>
+              </div>
+              <div
+                className={
+                  styles.mainProjects_mainDiv_project1_summary_flex_icon
+                }
+              >
+                <Icon_small className="devicon-react-original-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-javascript-plain colored"></Icon_small>
+                <Icon_small className="devicon-html5-plain-wordmark colored"></Icon_small>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
       </div>
     </div>
   );

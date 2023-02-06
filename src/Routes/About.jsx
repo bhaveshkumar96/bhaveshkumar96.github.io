@@ -87,7 +87,7 @@ Development experience in a product-based company.
         </div>
         <div className={styles.resumeButtonDiv}>
           <a href="Bhavesh_Kumar_Resume.pdf.pdf" download>
-            <button className={styles.resumeButton}>Resume</button>
+            <button className={styles.resumeButton}  onClick={()=>{ window.open('https://drive.google.com/file/d/1qtwMLZiIyi5jg9m4jee5n-_5HCxdjJyX/view')}} >Resume</button>
           </a>
         </div>
       </div>

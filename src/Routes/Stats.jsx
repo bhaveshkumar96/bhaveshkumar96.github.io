@@ -17,7 +17,7 @@ export const Stats = () => {
       }}
      
     >
-      <h1 style={{ textAlign: "center", marginBottom: "10px" }}>
+      <h1 style={{ textAlign: "center", marginBottom: "10px",color:"whitesmoke" }}>
         My Statistics
       </h1>
       <p style={{ display: "flex", justifyContent: "center" }}>

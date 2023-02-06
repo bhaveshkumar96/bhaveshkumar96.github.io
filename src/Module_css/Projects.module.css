@@ -4,8 +4,6 @@
 .mainProjects h1 {
     text-align: center;
 }
-.mainProjects_mainDiv {
-}
 .mainProjects_mainDiv_project1 {
     display: flex;
     width: 85%;

@@ -12,7 +12,7 @@ export const Footer = () => {
   }
 
   return (
-    <div name="main_footer_link" className={styles.footer_mainDiv} style={{backgroundImage:"url('https://im3.ezgif.com/tmp/ezgif-3-c2225c5350.jpg')"}}>
+    <div name="main_footer_link" className={styles.footer_mainDiv} style={{backgroundImage:"url('https://www.linkpicture.com/q/contactimage_1.jpeg')"}}>
       <div className={styles.footer_scrollup}>
         <IoIosArrowDropupCircle onClick={scrollTo} />
         {/* <img src={ Round} alt="" /> */}

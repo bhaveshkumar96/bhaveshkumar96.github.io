@@ -149,7 +149,7 @@ button {
   width: 55%;
   right: 0;
   top: 0;
-  background: #464646;
+  background: #2e2c38;
   border-radius: 5px;
   z-index: -1;
   transition: all 0.3s ease-out;
@@ -309,16 +309,16 @@ button {
   }
 
   .resumeButton {
-    background: #00a8e1;
+    background:#2e2c38;
     color: rgb(0, 0, 0);
   }
 
   .resumeButton::before {
-    background: #00a8e1;
+    background: #2e2c38;
   }
 
   .resumeButton::after {
-    background: #00a8e1;
+    background: #2e2c38;
   }
 
   .resumeButton:hover {

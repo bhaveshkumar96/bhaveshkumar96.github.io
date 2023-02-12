@@ -71,8 +71,22 @@ export const HamburgerMenuFun = () => {
                                     smooth={true}
                                     offeset={0}
                                 >
-                                    About
+                                    Home
                                 </Link>
+                            </li>
+                            <li>
+                            <Link
+              onClick={handleClick}
+              className="nav-not-active-link"
+              activeClassName="nav-link-active"
+              to="main_home_link"
+              duration={1500}
+              delay={100}
+              smooth={true}
+              offeset={0}
+            >
+              About
+            </Link>
                             </li>
                             <li>
                                 <Link

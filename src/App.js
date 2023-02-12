@@ -5,10 +5,11 @@ import { Stats } from "./Routes/Stats";
 import { Skills } from "./Routes/Skills";
 import { Footer } from "./Routes/Footer";
 import { Navbar } from "./Routes/Navbar";
-import { LottieAnimation } from "./Routes/LottieAnimation";
 import { Projects } from "./Routes/Projects";
+import { LottieAnimation } from "./Routes/LottieAnimation";
 import { useState, useEffect } from "react";
 import { Calender } from "./Routes/Calender";
+import { Home } from "./Routes/Home";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -26,6 +27,9 @@ export default function App() {
       <Navbar />
       <Zoom>
         <About />
+      </Zoom>
+      <Zoom>
+       <Home/>
       </Zoom>
       <Zoom>
         <Skills />

@@ -1,38 +1,13 @@
-import React from "react";
-import Bhanu from "../Images/final1.png";
 import styles from "../Module_css/About.module.css";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FiMail, FiSmartphone } from "react-icons/fi";
 import { TiLocation } from "react-icons/ti";
-
-export const About = () => {
+export const Home = () => {
   return (
-    <>
-      <div id="main_about_link" className={styles.mainAboutDiv} style={{backgroundImage: 
- "url('https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80')"}}>
-        <div className={styles.about_outerDivImg}>
-          <div className={styles.about_InnerDivImg}>
-            <img src={Bhanu} alt="" />
-          </div>
-        </div>
-        <div className={styles.about_nameH1Div}>
-          {/* <div className={styles.hello}>
-                        <span className={styles.hand_wave}> 👋🏻 </span> Hi, my
-                        name is
-                    </div> */}
-
-          <h1>
-            <span className={styles.about_hii}>&nbsp;</span>
-            <span>
-              {" "}
-              <span id={styles.hiIam}>I am</span> <h2>Bhavesh Kumar</h2> 
-            </span>
-          </h1>
-        </div>
-        <div className={styles.about_devH3Div}>
-          <h2> <i>Full Stack Web Developer</i> </h2>
-        </div>
-        {/* <div className={styles.about_descPDiv}>
+    <div id="main_home_link" className={styles.mainAboutDiv} style={{backgroundImage: 
+      "url('https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80')"}}>
+          <img src="https://camo.githubusercontent.com/9353871f026f9c8758aadaf06b886a3cc5028d2c3f8754d2cad8013532d80bd2/68747470733a2f2f6d65646961342e67697068792e636f6d2f6d656469612f7167515567674143335066763638377150432f67697068792e6769663f6369643d373930623736313164643062356131643332383135626136333463666665393563626236343437353035373465353064267269643d67697068792e6769662663743d67" alt="" />
+          <div className={styles.about_descPDiv} >
           <p>
             <i>
               Enthusiastic Full Stack Web Developer specialized in MERN stack. Keen
@@ -84,13 +59,7 @@ Development experience in a product-based company.
             <FiSmartphone />
             <p>(+91) 8946891025</p>
           </div>
-        </div> */}
-        <div className={styles.resumeButtonDiv}>
-          <a href="Bhavesh_Kumar_Resume.pdf.pdf" download>
-            <button className={styles.resumeButton}  onClick={()=>{ window.open('https://drive.google.com/file/d/1qtwMLZiIyi5jg9m4jee5n-_5HCxdjJyX/view')}} >Resume</button>
-          </a>
         </div>
-      </div>
-    </>
-  );
-};
+    </div>
+  )
+}

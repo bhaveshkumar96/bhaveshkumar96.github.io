@@ -12,6 +12,10 @@ export const Navbar = () => {
   const links = [
     {
       to: "main_about_link",
+      title: "Home",
+    },
+    {
+      to: "main_home_link",
       title: "About",
     },
     {
@@ -58,6 +62,19 @@ export const Navbar = () => {
               className="nav-not-active-link"
               activeClassName="nav-link-active"
               to="main_about_link"
+              duration={1500}
+              delay={100}
+              smooth={true}
+              offeset={0}
+            >
+              Home
+            </Link>
+          </NavbarLi>
+          <NavbarLi>
+            <Link
+              className="nav-not-active-link"
+              activeClassName="nav-link-active"
+              to="main_home_link"
               duration={1500}
               delay={100}
               smooth={true}

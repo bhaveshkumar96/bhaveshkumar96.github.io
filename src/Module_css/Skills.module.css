@@ -27,7 +27,9 @@
     font-size: 10em;
     /* margin: 100px; */
 }
-
+.skill_mainHeading{
+    color: aliceblue;
+}
 @media (max-width: 760px) {
     .skill_gridMain {
         width: 90% !important;

@@ -34,8 +34,9 @@
   color: whitesmoke;
   max-width: 56em;
   margin: 1em auto;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-family: 'Times New Roman';
+  font-size: 20px;
 }
 .about_outerDiv_icons {
   display: flex;

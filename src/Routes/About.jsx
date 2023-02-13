@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <>
       <div id="main_about_link" className={styles.mainAboutDiv} style={{backgroundImage: 
- "url('https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80')"}}>
+ "url('https://images.unsplash.com/photo-1549700337-d4fcfce79ae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"}}>
         <div className={styles.about_outerDivImg}>
           <div className={styles.about_InnerDivImg}>
             <img src={Bhanu} alt="" />

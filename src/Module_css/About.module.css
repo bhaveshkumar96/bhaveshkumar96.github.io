@@ -4,8 +4,15 @@
   margin-top: 5em;
   overflow-y: hidden;
   padding-bottom: 3em;
+ 
 }
+.mainHomeDiv{
+  text-align: center;
+  /* background-color: #cbcdd4 ; */
 
+  overflow-y: hidden;
+  padding-bottom: 3em;
+}
 .about_InnerDivImg img {
   margin-top: 2em;
   height: 17em;
@@ -81,19 +88,16 @@
   font-style: normal;
   font-size: 1em;
   border: none;
-  color: #ffffff;
+  color: black;
 }
-/* .about_resume_button > a {
+.about_resume_button > a {
     color: #ffffff;
-} */
+}
 
 .about_resume_button :hover {
   background: white;
   color: black;
 }
-
-/* ----------------- */
-/* @import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap"); */
 
 button {
   margin: 1em;
@@ -123,37 +127,15 @@ button {
 .resumeButton {
   position: relative;
   z-index: 1;
-  background: #00a8e1;
+  background: #ffffff;
+  color: #2e2c38;
+  font-weight: bolder;
 }
 
-.resumeButton::before {
-  content: " ";
-  position: absolute;
-  height: 100%;
-  width: 55%;
-  background: #464646;
-  top: 0;
-  left: 0;
-  border-radius: 5px;
-  z-index: -1;
-  transition: all 0.3s ease-out;
-}
 .resumeButton :hover{
-  background-color: white;
+  background-color: rgb(156, 47, 47);
   color: black;
   /* border: black 1px solid; */
-}
-.resumeButton::after {
-  content: " ";
-  position: absolute;
-  height: 100%;
-  width: 55%;
-  right: 0;
-  top: 0;
-  background: #2e2c38;
-  border-radius: 5px;
-  z-index: -1;
-  transition: all 0.3s ease-out;
 }
 
 .resumeButton:hover:before {
@@ -167,6 +149,8 @@ button {
 .resumeButton:hover {
   cursor: pointer;
   color: rgb(0, 0, 0);
+  border: 1px solid yellow;
+
 }
 
 .viewDemoButton {
@@ -308,29 +292,12 @@ button {
   .viewDemoButton::after {
     background: #00a8e1;
   }
-
-  .resumeButton {
-    background:#2e2c38;
-    color: rgb(0, 0, 0);
-  }
-
-  .resumeButton::before {
-    background: #2e2c38;
-  }
-
-  .resumeButton::after {
-    background: #2e2c38;
-  }
-
-  .resumeButton:hover {
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-  }
-
   /* --------------- */
 
   .resumeButton {
     margin-bottom: 4em;
+   
+
   }
   .about_address_numberDiv div :nth-child(1) {
     margin-right: 0.2em !important;

@@ -29,14 +29,12 @@ export default function App() {
         <About />
       </Zoom>
       <Zoom>
-       <Home/>
+        <Home />
       </Zoom>
       <Zoom>
         <Skills />
       </Zoom>
-      <Zoom>
-        <Projects />
-      </Zoom>
+      <Projects />
       <Zoom>
         <Stats />
       </Zoom>

@@ -12,7 +12,6 @@ export const Stats = () => {
         paddingTop: "25px",
         backgroundColor: "rgba(245, 218, 178, 0.158)",
         transition: " all 0.3s ease",
-        backgroundRepeat:"no-repeat",
         backgroundImage: 
         "url('https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
       }}

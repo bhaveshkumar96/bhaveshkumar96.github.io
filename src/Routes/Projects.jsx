@@ -168,7 +168,7 @@ export const Projects = () => {
               <div>
                 <a
                   target="_blank"
-                  href="https://project-sephora-unit-2.netlify.app/"
+                  href="https://shephora-com-clone.vercel.app/"
                 >
                   <button className={styles1.viewDemoButton}>Live</button>
                 </a>

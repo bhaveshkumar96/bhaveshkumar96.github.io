@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0581d0bb.chunk.css",
-    "main.js": "/static/js/main.37f4418d.chunk.js",
-    "main.js.map": "/static/js/main.37f4418d.chunk.js.map",
+    "main.js": "/static/js/main.c36cea75.chunk.js",
+    "main.js.map": "/static/js/main.c36cea75.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.40c522f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.40c522f0.js.map",
     "static/js/2.2f9e3146.chunk.js": "/static/js/2.2f9e3146.chunk.js",
@@ -14,12 +14,13 @@
     "static/media/final1.f28a498c.png": "/static/media/final1.f28a498c.png",
     "static/media/navbar-sastadeal.74f49ca8.png": "/static/media/navbar-sastadeal.74f49ca8.png",
     "static/media/shephora-home-navigation-slider.15722c4d.PNG": "/static/media/shephora-home-navigation-slider.15722c4d.PNG",
-    "static/media/shoppers-home-page-slider.70b8694a.PNG": "/static/media/shoppers-home-page-slider.70b8694a.PNG"
+    "static/media/shoppers-home-page-slider.70b8694a.PNG": "/static/media/shoppers-home-page-slider.70b8694a.PNG",
+    "static/media/think-mania-portfolio.01f42323.png": "/static/media/think-mania-portfolio.01f42323.png"
   },
   "entrypoints": [
     "static/js/runtime-main.40c522f0.js",
     "static/js/2.2f9e3146.chunk.js",
     "static/css/main.0581d0bb.chunk.css",
-    "static/js/main.37f4418d.chunk.js"
+    "static/js/main.c36cea75.chunk.js"
   ]
 }

@@ -4,11 +4,10 @@ import styles1 from "../Module_css/About.module.css";
 import purplle from "../Images/shephora-home-navigation-slider.PNG";
 import PrimeVideo from "../Images/DNA-home-page.PNG";
 import hashnode from "../Images/shoppers-home-page-slider.PNG";
+import billu from "../Images/think-mania-portfolio.png"
 import baby from '../Images/navbar-sastadeal.png'
 import {
   Icon_small,
-  StyledIcon_react,
-  StyledIcon_react_small,
 } from "../Styled/DeviconIcon";
 import { EveryHeading } from "../Styled/NavbarDiv";
 
@@ -27,7 +26,7 @@ export const Projects = () => {
               {" "}
               <h2>Caratlane.com</h2>
               <p>
-              Caratlane is a Tanishq partner jewelry ecommerce website - clone .It was a Collaborative Project built in 5 days by 4 team members, App was built using React-redux ,HTML,CSS,JavaScript,and Chakra-ui and for backend we have used MongoDB,Mongoose,and Cyclic.
+              Caratlane is a Tanishq partner jewelry ecommerce website - clone .It was a Collaborative Project built in 5 days by 4 team members, App was built using React-redux ,HTML,CSS,JavaScript,and Chakra-ui and for backend we have used MongoDB,Mongoose,NodeJs and Cyclic.
               </p>
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
@@ -55,6 +54,50 @@ export const Projects = () => {
                 <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
                 <Icon_small className="devicon-javascript-plain colored"></Icon_small>
                 <Icon_small className="devicon-html5-plain-wordmark colored"></Icon_small>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+{/* THINK_MANIA PROJECT STARTS HERE */}
+<div className={styles.mainProjects_mainDiv_project1}>
+          <div className={styles.mainProjects_mainDiv_project1_img}>
+            <img src={billu} alt="shop.com" />
+          </div>
+          <div className={styles.mainProjects_mainDiv_project1_summary}>
+            <div>
+              {" "}
+              <h2>Think-Mania-game</h2>
+              <p>
+              Think Mania is a TypeScript React web game is a movie guessing game where players must identify movies based on a series of emojis. This game is built using the MERN stack, which includes MongoDB for the database, Express for the server, React for the front-end, and Node.js for the back-end. Chakra UI is used for the front-end design and ui
+              </p>
+            </div>
+            <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
+              <div>
+                <a target="_blank" href="https://think-mania.vercel.app/">
+                  <button className={styles1.viewDemoButton}>Live</button>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://github.com/G-Dharani-raj/think-mania"
+                >
+                  <button className={styles1.viewDemoButton}>
+                    View Source
+                  </button>
+                </a>
+              </div>
+              <div
+                className={
+                  styles.mainProjects_mainDiv_project1_summary_flex_icon
+                }
+              >
+                <Icon_small className="devicon-html5-plain-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-react-original-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-typescript-plain colored"></Icon_small>
                 
               </div>
             </div>
@@ -105,7 +148,7 @@ export const Projects = () => {
             
           </div>
         </div>
-        
+      {/* SHEPHORA PROJECT STARTS HERE */}  
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
             <img src={purplle} alt="" />
@@ -151,7 +194,8 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className={styles.mainProjects_mainDiv_project1}>
+        {/* DNA PROJECT STARTS HERE */}
+        {/* <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
             <img src={PrimeVideo} alt="" />
           </div>
@@ -197,7 +241,8 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+         {/* SHOP.COM PROJECT STARTS HERE */}
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
             <img src={hashnode} alt="shop.com" />

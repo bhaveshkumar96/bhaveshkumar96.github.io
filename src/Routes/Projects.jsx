@@ -31,7 +31,7 @@ export const Projects = () => {
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
               <div>
-                <a target="_blank" href="https://24karat.netlify.app/">
+                <a target="_blank" href="https://24karat-caratlane.netlify.app/">
                   <button className={styles1.viewDemoButton}>Live</button>
                 </a>
               </div>
@@ -119,7 +119,7 @@ export const Projects = () => {
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
               <div>
-                <a target="_blank" href="https://snapdeal-project.vercel.app/">
+                <a target="_blank" href="https://snapdeal-sastadeal.netlify.app/">
                   <button className={styles1.viewDemoButton}>Live</button>
                 </a>
               </div>

@@ -51,6 +51,14 @@ export const Skills = () => {
           <StyledIcon_react className="devicon-github-original"></StyledIcon_react>
           <EveryHeading2>GITHUB</EveryHeading2>
         </div>
+        <div>
+          <StyledIcon_react className="devicon-typescript-original"></StyledIcon_react>
+          <EveryHeading2>TYPESCRIPT</EveryHeading2>
+        </div>
+        <div>
+          <StyledIcon_react className="devicon-redux-original"></StyledIcon_react>
+          <EveryHeading2>REDUX</EveryHeading2>
+        </div>
       </div>
     </div>
   );
